@@ -668,7 +668,6 @@ export const forceNavigator = {
 		}
 	},
 	"createSObjectCommands": (commands, sObjectData,qualifiedApiNameToDurableIdMap, serverUrl) => {
-        console.log('in createSObjectCommands', qualifiedApiNameToDurableIdMap)
 		const { labelPlural, label, name, keyPrefix } = sObjectData
 		const mapKeys = Object.keys(forceNavigator.objectSetupLabelsMap)
 		if (!keyPrefix || forceNavigatorSettings.skipObjects.includes(keyPrefix)) { return commands }
