@@ -90,9 +90,9 @@ if (response && response.actions) {
 
     // Output the results to the console and save them to setupUrls.json
     fs.writeFileSync(URL_PATHS_FILENAME, jsonStringifyWithSortedKeys(urls), 'utf8');
-    console.log('Extracted URLs saved to ', URL_PATHS_FILENAME);
+    console.log('Extracted URLs saved to', URL_PATHS_FILENAME);
     fs.writeFileSync(URL_PATHS_LANG_EN_FILENAME, jsonStringifyWithSortedKeys(langEn), 'utf8');
-    console.log('Extracted URLs in English saved to ', URL_PATHS_LANG_EN_FILENAME);
+    console.log('Extracted URL titles in English saved to', URL_PATHS_LANG_EN_FILENAME);
 } else {
     console.error('No actions found in response');
     process.exit(1);

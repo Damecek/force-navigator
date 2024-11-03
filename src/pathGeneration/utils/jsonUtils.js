@@ -14,6 +14,5 @@ function removeAntiCsrfPrefixes(data) {
 }
 
 module.exports = {
-    jsonStringifyWithSortedKeys,
-    removeAntiCsrfPrefixes
+    jsonStringifyWithSortedKeys, removeAntiCsrfPrefixes,
 };
