@@ -3,6 +3,10 @@
     "classic": "CMP?cmp=setup_heroku%3AherokuAboutPageContainer&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/AboutHeroku/home"
   },
+  "AccessConversationTranscriptsOnDataCloud": {
+    "classic": "CMP?cmp=scrt_setup%3AconversationTranscriptsForDataCloud&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/AccessConversationTranscriptsOnDataCloud/home"
+  },
   "AccountAsCM": {
     "classic": "/p/camp/AccountAsCampaignMemberSetupUi/e?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/AccountAsCM/home"
@@ -15,10 +19,6 @@
     "classic": "/opp/teamsellingsetup.jsp?type=Account&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/AccountTeamSelling/home"
   },
-  "ActionLauncherDeployment": {
-    "classic": "CMP?cmp=lbpm%3AactionLauncherDeployment&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/ActionLauncherDeployment/home"
-  },
   "ActionLinkGroupTemplates": {
     "classic": "/07g?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ActionLinkGroupTemplates/home"
@@ -26,6 +26,10 @@
   "ActivatedIpAddressAndClientBrowsersPage": {
     "classic": "/setup/secur/identityconfirmation/ActivatedIpAddressAndClientBrowsersPage.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ActivatedIpAddressAndClientBrowsersPage/home"
+  },
+  "ActivitySyncEngineSettingsMain": {
+    "classic": "CMP?cmp=emailStream%3AactivitySyncEngineSetupMain&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/ActivitySyncEngineSettingsMain/home"
   },
   "AdditionalDirectoryNumbers": {
     "classic": "/04m?retURL=%2Fsetup%2Fhome",
@@ -63,10 +67,6 @@
     "classic": "/apexpages/setup/viewApexFlexQueue.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ApexFlexQueue/home"
   },
-  "ApexHammerResultStatus": {
-    "classic": "/ui/setup/apex/ApexHammerResultStatusLandingPage?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/ApexHammerResultStatus/home"
-  },
   "ApexPages": {
     "classic": "/apexpages/setup/listApexPage.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ApexPages/home"
@@ -99,6 +99,14 @@
     "classic": "/0tV?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ApplicationSubtypeDefinition/home"
   },
+  "AppointmentAssignmentPolicy": {
+    "classic": "/0mT?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/AppointmentAssignmentPolicy/home"
+  },
+  "AppointmentSchedulingPolicy": {
+    "classic": "/0Vr?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/AppointmentSchedulingPolicy/home"
+  },
   "ApprovalProcesses": {
     "classic": "/p/process/ProcessDefinitionSetup?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ApprovalProcesses/home"
@@ -115,13 +123,13 @@
     "classic": "/750?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/AsyncApiJobStatus/home"
   },
-  "AttendeeSettings": {
-    "classic": "CMP?cmp=industries_service_excellence%3AengagementSettings&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/AttendeeSettings/home"
-  },
   "AuthProviders": {
     "classic": "/0SO?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/AuthProviders/home"
+  },
+  "Authorization": {
+    "classic": "CMP?cmp=embeddedService%3AauthorizationSetup&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/Authorization/home"
   },
   "AutoAssociationSettings": {
     "classic": "/p/camp/CampaignInfluenceAutoAssociationSetupUi/e?ftype=CampaignInfluence&retURL=%2Fsetup%2Fhome",
@@ -131,21 +139,9 @@
     "classic": "CMP?cmp=builder_industries_interaction_rule%3AbreDecisionTableAccessSetting&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/BREDecisionTableAccess/home"
   },
-  "BasicDataImport": {
-    "classic": "CMP?cmp=runtime_sales_easy%3AbasicDataImportSetup&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/BasicDataImport/home"
-  },
-  "BatchProcessJobDefinition": {
-    "classic": "CMP?cmp=setup_batch_management%3AbatchProcessJobDefinitionList&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/BatchProcessJobDefinition/home"
-  },
   "BigObjects": {
     "classic": "/p/setup/custent/BigObjectsPage?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/BigObjects/home"
-  },
-  "BotTemplateSettings": {
-    "classic": "CMP?cmp=industries_service_excellence%3AbotTemplateSettings&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/BotTemplateSettings/home"
   },
   "Briefcase": {
     "classic": "CMP?cmp=briefcase%3Awrapper&retURL=%2Fsetup%2Fhome",
@@ -162,14 +158,6 @@
   "BusinessProcessTypeDef": {
     "classic": "/0tW?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/BusinessProcessTypeDef/home"
-  },
-  "BuyerRelationshipMap": {
-    "classic": "CMP?cmp=runtime_sales_activities%3ArgSetupWrapper&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/BuyerRelationshipMap/home"
-  },
-  "C360ProvisioningSetup": {
-    "classic": "CMP?cmp=runtime_sales_easy%3Ac360ProvisioningSetup&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/C360ProvisioningSetup/home"
   },
   "Calendars": {
     "classic": "/023/s?retURL=%2Fsetup%2Fhome",
@@ -255,6 +243,10 @@
     "classic": "/_ui/core/chatter/email/ui/ChatterEmailSettings/e?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ChatterEmailSettings/home"
   },
+  "CiSignals": {
+    "classic": "CMP?cmp=setup_service_voice%3AciSignalsSetup&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/CiSignals/home"
+  },
   "CleanRules": {
     "classic": "/07i?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/CleanRules/home"
@@ -262,10 +254,6 @@
   "ClientDevTools": {
     "classic": "/ui/setup/sforce/ClientDevToolsSetupPage?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ClientDevTools/home"
-  },
-  "CodeBuilderSetup": {
-    "classic": "CMP?cmp=setup_platform_sfdx%3AcodeBuilderSetupPage&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/CodeBuilderSetup/home"
   },
   "CollaborationGroupLayouts": {
     "classic": "/ui/setup/layout/PageLayouts?type=CollaborationGroup&retURL=%2Fsetup%2Fhome",
@@ -291,6 +279,10 @@
     "classic": "/collaboration/collaborationSettings.apexp?setupid=CollaborationSettings&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/CollaborationSettings/home"
   },
+  "CommerceSetupAssistant": {
+    "classic": "CMP?cmp=runtime_commerce_store%3AcommerceSetupCenterWrapper&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/CommerceSetupAssistant/home"
+  },
   "CommunicationTemplatesEmail": {
     "classic": "/00X?setupid=CommunicationTemplatesEmail&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/CommunicationTemplatesEmail/home"
@@ -303,28 +295,12 @@
     "classic": "/01H?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/CommunicationTemplatesWord/home"
   },
-  "CommunityFlexiPageList": {
-    "classic": "/_ui/sites/setup/ui/CommunityFlexiPageFilterListPage?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/CommunityFlexiPageList/home"
-  },
-  "CommunityTemplateDefinitionList": {
-    "classic": "/_ui/sites/setup/ui/CommunityTemplateDefinitionFilterListPage?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/CommunityTemplateDefinitionList/home"
-  },
-  "CommunityThemeDefinitionList": {
-    "classic": "/_ui/sites/setup/ui/CommunityThemeDefinitionFilterListPage?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/CommunityThemeDefinitionList/home"
-  },
-  "CompanyCurrency": {
-    "classic": "/setup/cur/currencylist.jsp?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/CompanyCurrency/home"
-  },
   "CompanyProfileInfo": {
-    "classic": "/00D1t000000xE35?retURL=%2Fsetup%2Fhome",
+    "classic": "/00DdM00000EabnN?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/CompanyProfileInfo/home"
   },
   "CompanyResourceDisk": {
-    "classic": "/setup/org/orgstorageusage.jsp?id=00D1t000000xE35&setupid=CompanyResourceDisk&retURL=%2Fsetup%2Fhome",
+    "classic": "/setup/org/orgstorageusage.jsp?id=00DdM00000EabnN&setupid=CompanyResourceDisk&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/CompanyResourceDisk/home"
   },
   "ConnectedApplication": {
@@ -347,6 +323,10 @@
     "classic": "CMP?cmp=one%3AconsoleMaxTabCacheSetup&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ConsoleMaxTabCacheSetup/home"
   },
+  "ContactInspectionSettings": {
+    "classic": "CMP?cmp=runtime_pipeline_inspector%3AcontactInspectorSettings&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/ContactInspectionSettings/home"
+  },
   "ContactRequestFlows": {
     "classic": "CMP?cmp=support%3AcontactRequestFlowsSetup&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ContactRequestFlows/home"
@@ -359,6 +339,14 @@
     "classic": "/ui/setup/org/ContentDistributionEnablePage?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ContentDistribution/home"
   },
+  "ContentHub": {
+    "classic": "/_ui/com/sfdc/contenthub/ui/setup/ContentHubSettingsPage/d?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/ContentHub/home"
+  },
+  "ContextManagementAccess": {
+    "classic": "CMP?cmp=setup_industries_context%3AcontextAccessSetting&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/ContextManagementAccess/home"
+  },
   "ContractContactRoles": {
     "classic": "/setup/ui/picklist_masterdetail.jsp?tid=02a&pt=39&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ContractContactRoles/home"
@@ -367,9 +355,21 @@
     "classic": "/ctrc/contractsettings.jsp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ContractSettings/home"
   },
+  "ConversationMessageDefinitions": {
+    "classic": "CMP?cmp=scrt_setup%3AconversationMessageDefinitions&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/ConversationMessageDefinitions/home"
+  },
+  "CorePricingSetting": {
+    "classic": "CMP?cmp=setup_industries_pricing%3AcorePricingSetting&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/CorePricingSetting/home"
+  },
   "CorsWhitelistEntries": {
     "classic": "/074?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/CorsWhitelistEntries/home"
+  },
+  "CssDataExport": {
+    "classic": "CMP?cmp=scrt_setup%3AcssDataExport&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/CssDataExport/home"
   },
   "CustomDomain": {
     "classic": "/0DM/o?retURL=%2Fsetup%2Fhome",
@@ -411,6 +411,10 @@
     "classic": "/setup/consent/DataClassificationUpload.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/DataClassificationUpload/home"
   },
+  "DataDotComPreferences": {
+    "classic": "/_ui/datacloud/datadotcom/settings/DataDotComPreferencesUi/e?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/DataDotComPreferences/home"
+  },
   "DataLoader": {
     "classic": "/ui/setup/sforce/DataLoaderSetupPage?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/DataLoader/home"
@@ -418,10 +422,6 @@
   "DataLoaderIo": {
     "classic": "CMP?cmp=setup_platform_integration%3AdataloaderIoSetup&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/DataLoaderIo/home"
-  },
-  "DataManagementCreateTestInstance": {
-    "classic": "/07E?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/DataManagementCreateTestInstance/home"
   },
   "DataManagementDataImporter": {
     "classic": "/ui/setup/dataimporter/DataImporterAdminLandingPage?retURL=%2Fsetup%2Fhome",
@@ -442,6 +442,10 @@
   "DataManagementManageCaseEscalation": {
     "classic": "/setup/own/massdelete.jsp?ftype=CaseEscalation&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/DataManagementManageCaseEscalation/home"
+  },
+  "DataManagementManageSlaProcess": {
+    "classic": "/setup/own/massdelete.jsp?ftype=SlaProcessTimeQueue&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/DataManagementManageSlaProcess/home"
   },
   "DataManagementManageWorkflowQueue": {
     "classic": "/setup/own/massdelete.jsp?ftype=WFTimeQ&retURL=%2Fsetup%2Fhome",
@@ -476,7 +480,7 @@
     "lightning": "/lightning/setup/DeployStatus/home"
   },
   "DeploymentSettings": {
-    "classic": "/changemgmt/changeMgmtSplash.apexp?splashPageTargetUrl=DeploymentSettings&retURL=%2Fsetup%2Fhome",
+    "classic": "/changemgmt/deploymentSettings.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/DeploymentSettings/home"
   },
   "DevHub": {
@@ -486,6 +490,10 @@
   "DevOpsCenterSetup": {
     "classic": "CMP?cmp=setup_platform_sfdx%3AdevOpsCenterGASetupPage&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/DevOpsCenterSetup/home"
+  },
+  "DialerLogACallSetup": {
+    "classic": "CMP?cmp=voice%3AmanageLogACall&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/DialerLogACallSetup/home"
   },
   "DomainNames": {
     "classic": "/0I4?retURL=%2Fsetup%2Fhome",
@@ -503,37 +511,25 @@
     "classic": "/0Bm?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/DuplicateRules/home"
   },
+  "EinsteinBots": {
+    "classic": "CMP?cmp=builder_service_chatbots%3AbotSetup&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/EinsteinBots/home"
+  },
   "EinsteinBotsReadinessCheck": {
     "classic": "CMP?cmp=setup_sales_insights%3AreadinessCheckEinsteinBots&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/EinsteinBotsReadinessCheck/home"
-  },
-  "EinsteinBuilder": {
-    "classic": "CMP?cmp=einsteinbuilder%3AeinsteinBuilderPredictions&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/EinsteinBuilder/home"
   },
   "EinsteinCIReadinessCheck": {
     "classic": "CMP?cmp=setup_sales_insights%3AreadinessCheckEinsteinConversationInsights&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/EinsteinCIReadinessCheck/home"
   },
-  "EinsteinCaseClassification": {
-    "classic": "CMP?cmp=setup_service_predictions%3AeinsteinCaseClassificationSetup&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/EinsteinCaseClassification/home"
-  },
   "EinsteinForDevelopers": {
     "classic": "CMP?cmp=setup_einstein_for_devs%3AeinsteinForDevsSetupPage&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/EinsteinForDevelopers/home"
   },
-  "EinsteinGPTSetup": {
-    "classic": "CMP?cmp=einstein_gpt%3AeinsteinGptAuraSetupPage&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/EinsteinGPTSetup/home"
-  },
   "EinsteinKeyManagement": {
     "classic": "/setup/EinsteinAISettings.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/EinsteinKeyManagement/home"
-  },
-  "EinsteinRecommendation": {
-    "classic": "CMP?cmp=erb%3AmodelSettingsList&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/EinsteinRecommendation/home"
   },
   "EinsteinSearchLayouts": {
     "classic": "CMP?cmp=forceSearch%3AsetupSearchLayouts&retURL=%2Fsetup%2Fhome",
@@ -559,10 +555,6 @@
     "classic": "/email/capture/emailCapture.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/EmailCapture/home"
   },
-  "EmailConfigurations": {
-    "classic": "/ui/setup/sfoeos/SFOEndOfSalePage?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/EmailConfigurations/home"
-  },
   "EmailDKIMList": {
     "classic": "/email-admin/dkim/listEmailDomainKey.apexp?setupid=EmailDKIMList&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/EmailDKIMList/home"
@@ -571,9 +563,21 @@
     "classic": "/0GC?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/EmailDisclaimers/home"
   },
+  "EmailDomainFilter": {
+    "classic": "/email-admin/deliverysettings/listEmailDomainFilter.apexp?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/EmailDomainFilter/home"
+  },
+  "EmailIqSetupPage": {
+    "classic": "CMP?cmp=emailStream%3AemailIqSetupPage&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/EmailIqSetupPage/home"
+  },
   "EmailLogFiles": {
     "classic": "/_ui/core/email/logs/EmailLogSearchOverview?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/EmailLogFiles/home"
+  },
+  "EmailRelay": {
+    "classic": "/email-admin/deliverysettings/listEmailRelay.apexp?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/EmailRelay/home"
   },
   "EmailToApexFunction": {
     "classic": "/email-admin/services/listEmailServicesFunction.apexp?retURL=%2Fsetup%2Fhome",
@@ -595,13 +599,33 @@
     "classic": "CMP?cmp=embeddedService%3AembeddedServiceSetup&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/EmbeddedServiceDeployments/home"
   },
+  "EnableLightningExperience": {
+    "classic": "CMP?cmp=setup%3AenableLightningExperienceSetupComponent&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/EnableLightningExperience/home"
+  },
+  "EnablementPrograms": {
+    "classic": "CMP?cmp=runtime_enablement%3AenablementSetup&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/EnablementPrograms/home"
+  },
+  "EncryptionAdvancedSettings": {
+    "classic": "CMP?cmp=platformencryption%3AadvancedsettingsPageWrapper&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/EncryptionAdvancedSettings/home"
+  },
   "EnhancedEmail": {
     "classic": "CMP?cmp=emailui%3AenhancedEmailSetupPage&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/EnhancedEmail/home"
   },
+  "EnhancedProfiles": {
+    "classic": "/00e?setupid=EnhancedProfiles&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/EnhancedProfiles/home"
+  },
   "EntitlementSettings": {
     "classic": "/entitlement/entitlementSettings.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/EntitlementSettings/home"
+  },
+  "EntitlementTemplates": {
+    "classic": "/551?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/EntitlementTemplates/home"
   },
   "EventManager": {
     "classic": "CMP?cmp=setup_platformServices_eventManager%3AeventManagerHome&retURL=%2Fsetup%2Fhome",
@@ -630,10 +654,6 @@
   "ExplainabilityMsgTemplate": {
     "classic": "/8U8?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ExplainabilityMsgTemplate/home"
-  },
-  "ExportDashboard": {
-    "classic": "CMP?cmp=industries_common%3AauditDashboard&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/ExportDashboard/home"
   },
   "ExpressionSetMessageToken": {
     "classic": "/15p?retURL=%2Fsetup%2Fhome",
@@ -727,13 +747,25 @@
     "classic": "/_ui/flexipage/ui/FlexiPageFilterListPage?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/FlexiPageList/home"
   },
+  "FlowCategory": {
+    "classic": "CMP?cmp=setup_platform_ltngbolt%3AflowCategorySetupHome&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/FlowCategory/home"
+  },
   "Flows": {
     "classic": "CMP?cmp=process_home%3AflowListView&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/Flows/home"
   },
   "ForecastFiscalYear": {
-    "classic": "/setup/org/orgfyedit.jsp?id=00D1t000000xE35&retURL=%2Fsetup%2Fhome",
+    "classic": "/setup/org/orgfyedit.jsp?id=00DdM00000EabnN&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ForecastFiscalYear/home"
+  },
+  "Forecasting3Role": {
+    "classic": "/ui/setup/forecasting/ForecastingRolePage?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/Forecasting3Role/home"
+  },
+  "Forecasting3Settings": {
+    "classic": "CMP?cmp=setup_sales_forecasting%3AflexibleForecasting3SettingsWrapper&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/Forecasting3Settings/home"
   },
   "Functions": {
     "classic": "CMP?cmp=setup_platform_sfdx%3AevergreenWrapper&retURL=%2Fsetup%2Fhome",
@@ -783,25 +815,13 @@
     "classic": "CMP?cmp=hyperforce_assistant%3AhyperforceAssistantPage&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/HyperforceAssistant/home"
   },
+  "IdentityConnect": {
+    "classic": "/setup/secur/IdentityConnectPage.apexp?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/IdentityConnect/home"
+  },
   "IdentityVerification": {
     "classic": "CMP?cmp=salesforceIdentity%3AidentityVerification&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/IdentityVerification/home"
-  },
-  "IdentityVerificationProcDef": {
-    "classic": "/7cV?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/IdentityVerificationProcDef/home"
-  },
-  "IdentityVerificationProcDtl": {
-    "classic": "/6rv?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/IdentityVerificationProcDtl/home"
-  },
-  "IdentityVerificationProcFld": {
-    "classic": "/17b?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/IdentityVerificationProcFld/home"
-  },
-  "IdentityVerificationSetup": {
-    "classic": "CMP?cmp=setup_industries_common%3AidentityVerificationSetup&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/IdentityVerificationSetup/home"
   },
   "IdpErrorLog": {
     "classic": "/setup/secur/IdpErrorLog.apexp?setupid=IdpErrorLog&retURL=%2Fsetup%2Fhome",
@@ -815,14 +835,6 @@
     "classic": "/0A3?setupid=ImportedPackage&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ImportedPackage/home"
   },
-  "InboundChangeSet": {
-    "classic": "/changemgmt/changeMgmtSplash.apexp?splashPageTargetUrl=InboundChangeSet&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/InboundChangeSet/home"
-  },
-  "InboundSocialPostErrors": {
-    "classic": "CMP?cmp=setup_service_scs%3AinboundSocialPostErrorsContainer&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/InboundSocialPostErrors/home"
-  },
   "IncidentManagement": {
     "classic": "CMP?cmp=support%3AincidentMgmt&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/IncidentManagement/home"
@@ -835,41 +847,41 @@
     "classic": "/_ui/sbi/setup/InfluenceSettingsPage?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/InfluenceSettings/home"
   },
-  "IntegrationConfiguration": {
-    "classic": "CMP?cmp=runtime_industries_integrationconfiguration%3AintegrationConfigurationHome&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/IntegrationConfiguration/home"
+  "InsightsSetupAppHistoryControlPanel": {
+    "classic": "CMP?cmp=wave%3AappHistoryControlPanel&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/InsightsSetupAppHistoryControlPanel/home"
   },
-  "IntegrationsSetup": {
-    "classic": "CMP?cmp=setup_industries_vertical_integration%3AsystemIntegrationsLandingPage&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/IntegrationsSetup/home"
+  "InsightsSetupAutoInstalledApps": {
+    "classic": "CMP?cmp=wave%3AautoInstalledAppsSetup&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/InsightsSetupAutoInstalledApps/home"
   },
   "InternationalEmailAddresses": {
     "classic": "/email-admin/editEmailAddrIntl.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/InternationalEmailAddresses/home"
   },
   "LabelWorkbenchExport": {
-    "classic": "/i18n/TranslationExport.apexp?retURL=%2Fsetup%2Fhome",
+    "classic": "/i18n/TranslationSplash.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/LabelWorkbenchExport/home"
   },
   "LabelWorkbenchImport": {
-    "classic": "/i18n/TranslationImport.apexp?retURL=%2Fsetup%2Fhome",
+    "classic": "/i18n/TranslationSplash.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/LabelWorkbenchImport/home"
   },
-  "LabelWorkbenchOverride": {
-    "classic": "/i18n/LabelWorkbenchOverride.apexp?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/LabelWorkbenchOverride/home"
-  },
   "LabelWorkbenchSetup": {
-    "classic": "/01h?retURL=%2Fsetup%2Fhome",
+    "classic": "/i18n/TranslationSplash.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/LabelWorkbenchSetup/home"
   },
   "LabelWorkbenchTranslate": {
-    "classic": "/i18n/TranslationWorkbench.apexp?retURL=%2Fsetup%2Fhome",
+    "classic": "/i18n/TranslationSplash.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/LabelWorkbenchTranslate/home"
   },
   "LanguageSettings": {
     "classic": "/_ui/system/organization/LanguageSettings?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/LanguageSettings/home"
+  },
+  "LeadInspectionSettings": {
+    "classic": "CMP?cmp=runtime_pipeline_inspector%3AleadInspectorSettings&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/LeadInspectionSettings/home"
   },
   "LeadProcess": {
     "classic": "/setup/ui/bplist.jsp?id=00Q&retURL=%2Fsetup%2Fhome",
@@ -895,9 +907,9 @@
     "classic": "CMP?cmp=one%3AlearningSetup&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/LearningSetup/home"
   },
-  "LightningCheckout": {
-    "classic": "CMP?cmp=runtime_essential_checkout%3AmanageSubscriptionPage&retURL=%2Fsetup%2Fhome%3FsetupApp%3Deasy",
-    "lightning": "/lightning/setup/LightningCheckout/home"
+  "LightningBolt": {
+    "classic": "CMP?cmp=setup_platform_ltngbolt%3AlightningBoltSetupHome&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/LightningBolt/home"
   },
   "LightningComponentBundles": {
     "classic": "/ui/aura/impl/setup/LightningComponentListPage?retURL=%2Fsetup%2Fhome",
@@ -923,6 +935,10 @@
     "classic": "CMP?cmp=support%3AlightningQuickTextSetup&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/LightningQuickTextSettings/home"
   },
+  "LightningSchedulerSettings": {
+    "classic": "CMP?cmp=runtime_appointmentbooking%3AlightningSchedulerSetup&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/LightningSchedulerSettings/home"
+  },
   "LightningUsageSetup": {
     "classic": "CMP?cmp=usage_app%3AlightningUsageSetup&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/LightningUsageSetup/home"
@@ -939,6 +955,14 @@
     "classic": "CMP?cmp=sfa%3AlinkedInSalesNavigatorPage&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/LinkedInSalesNavigatorPage/home"
   },
+  "LiveAgentSettings": {
+    "classic": "/liveagent/settings.apexp?setupid=LiveAgentSettings&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/LiveAgentSettings/home"
+  },
+  "LiveMessageSetup": {
+    "classic": "CMP?cmp=setup_service_livemessage%3AsettingsContainer&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/LiveMessageSetup/home"
+  },
   "LoginAccessPolicies": {
     "classic": "/partnerbt/loginAccessPolicies.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/LoginAccessPolicies/home"
@@ -950,6 +974,10 @@
   "MacroSettings": {
     "classic": "CMP?cmp=macros%3AlightningMacroSetup&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/MacroSettings/home"
+  },
+  "ManageC2CSelfProvisioningConnections": {
+    "classic": "/setup/selfprovisioning/ManageC2CSelfProvisioningConnectionsPage.apexp?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/ManageC2CSelfProvisioningConnections/home"
   },
   "ManageExternalClientApplication": {
     "classic": "CMP?cmp=salesforceIdentity%3AexternalClientApplicationList&retURL=%2Fsetup%2Fhome",
@@ -963,13 +991,13 @@
     "classic": "/005?isUserEntityOverride=1&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ManageUsers/home"
   },
-  "MapsAndLocationServicesSettings": {
-    "classic": "/maps/mapsAndLocationSvcSettings.apexp?setupid=MapsAndLocationServicesSettings&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/MapsAndLocationServicesSettings/home"
-  },
   "MatchingRules": {
     "classic": "/0JD?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/MatchingRules/home"
+  },
+  "MessagingSensitiveDataRulesEnhanced": {
+    "classic": "CMP?cmp=setup_service_livemessage%3AenhancedSensitiveDataRules&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/MessagingSensitiveDataRulesEnhanced/home"
   },
   "MicrosoftTeamsIntegration": {
     "classic": "CMP?cmp=setup_clients_chatapp%3AteamsSetupHome&retURL=%2Fsetup%2Fhome",
@@ -979,21 +1007,21 @@
     "classic": "CMP?cmp=process_migration%3AmigrateToFlowListView&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/MigrateToFlowTool/home"
   },
+  "MilestoneTypes": {
+    "classic": "/557?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/MilestoneTypes/home"
+  },
   "MobileOfflineStorageAdmin": {
     "classic": "/mobile/mobileadmin/offlineStorageSettings.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/MobileOfflineStorageAdmin/home"
   },
-  "MobileSecurity": {
-    "classic": "CMP?cmp=setup_mobile_security%3AmobileSecurityHome&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/MobileSecurity/home"
-  },
-  "MonitorWorkflowServices": {
-    "classic": "CMP?cmp=setup_batch_management%3AmonitoringHome&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/MonitorWorkflowServices/home"
-  },
   "MonitoringRateLimitingNotification": {
     "classic": "/076?spl1=1&setupid=MonitoringRateLimitingNotification&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/MonitoringRateLimitingNotification/home"
+  },
+  "MotivationSetup": {
+    "classic": "CMP?cmp=setup_motivation%3AmotivationSetup&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/MotivationSetup/home"
   },
   "MulesoftServices": {
     "classic": "CMP?cmp=setup_integration_services%3AmulesoftSetupPage&retURL=%2Fsetup%2Fhome",
@@ -1051,25 +1079,13 @@
     "classic": "CMP?cmp=objectManager%3AobjectList&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ObjectManager/home"
   },
-  "OmniChannelHome": {
-    "classic": "CMP?cmp=omni%3AomniChannelSetupHome&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/OmniChannelHome/home"
-  },
-  "OmniChannelLimits": {
-    "classic": "/omnichannel/limits.apexp?setupid=OmniChannelLimits&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/OmniChannelLimits/home"
+  "OmniChannelInventory": {
+    "classic": "CMP?cmp=runtime_commerce_oci%3AomniChannelInventorySetup&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/OmniChannelInventory/home"
   },
   "OmniChannelSettings": {
     "classic": "/omnichannel/settings.apexp?setupid=OmniChannelSettings&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/OmniChannelSettings/home"
-  },
-  "OmniSupervisorConfigSettings": {
-    "classic": "/0Q2?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/OmniSupervisorConfigSettings/home"
-  },
-  "OmniSupervisorSettings": {
-    "classic": "/omnichannel/supervisorSettings.apexp?setupid=OmniSupervisorSettings&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/OmniSupervisorSettings/home"
   },
   "OpportunityAlerts": {
     "classic": "/opp/oppalertedit.jsp?retURL=%2Fsetup%2Fhome",
@@ -1115,10 +1131,6 @@
     "classic": "/email-admin/owa/listOrgWideEmailAddress.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/OrgWideEmailAddresses/home"
   },
-  "OutboundChangeSet": {
-    "classic": "/changemgmt/changeMgmtSplash.apexp?splashPageTargetUrl=OutboundChangeSet&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/OutboundChangeSet/home"
-  },
   "Package": {
     "classic": "/0A2?setupid=Package&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/Package/home"
@@ -1127,6 +1139,14 @@
     "classic": "CMP?cmp=packagingSetupUI%3AsubscriberQueryRequests&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/PackageUsageSummary/home"
   },
+  "ParallelJobsStatus": {
+    "classic": "/0Ys?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/ParallelJobsStatus/home"
+  },
+  "PartnerContactCenters": {
+    "classic": "CMP?cmp=setup_service_voice%3ApartnerContactCentersList&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/PartnerContactCenters/home"
+  },
   "PathAssistantSetupHome": {
     "classic": "/ui/setup/pathassistant/PathAssistantSetupPage?setupid=PathAssistantSetupHome&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/PathAssistantSetupHome/home"
@@ -1134,6 +1154,10 @@
   "Pausedflows": {
     "classic": "CMP?cmp=process_home%3AflowInterviewListView&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/Pausedflows/home"
+  },
+  "PaymentsSettings": {
+    "classic": "CMP?cmp=setup_payments%3ApaymentsSetupWrapper&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/PaymentsSettings/home"
   },
   "PerformanceAssistant": {
     "classic": "CMP?cmp=runtime_hcc_performanceassistant%3Aperformanceassistant&retURL=%2Fsetup%2Fhome",
@@ -1163,9 +1187,9 @@
     "classic": "/0Er?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/PlatformCache/home"
   },
-  "PortalSecurityReport": {
-    "classic": "/udd/PortalSecurityReport/viewReport.apexp?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/PortalSecurityReport/home"
+  "PlatformEncryptionKeyManagement": {
+    "classic": "/platformencryption/PlatformEncryptionKeyManagementUi.apexp?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/PlatformEncryptionKeyManagement/home"
   },
   "PrivateConnect": {
     "classic": "CMP?cmp=setup_platform_externalconnection%3AprivateConnectSetupHome&retURL=%2Fsetup%2Fhome",
@@ -1187,10 +1211,6 @@
     "classic": "/setup/pbk/productSettings.jsp?setupid=Product2Settings&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/Product2Settings/home"
   },
-  "Profiles": {
-    "classic": "/setup/ui/profilelist.jsp?setupid=Profiles&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/Profiles/home"
-  },
   "ProjectOneAppMenu": {
     "classic": "/setup/salesforce1AppMenu.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ProjectOneAppMenu/home"
@@ -1199,13 +1219,13 @@
     "classic": "CMP?cmp=runtime_iag_core%3AdeclarativePromptSetup&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/Prompts/home"
   },
+  "ProspectingUsers": {
+    "classic": "/DataDotComLicensedUsers?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/ProspectingUsers/home"
+  },
   "PublicGroups": {
     "classic": "/p/own/OrgPublicGroupsPage/d?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/PublicGroups/home"
-  },
-  "QueueRoutingConfigSettings": {
-    "classic": "/0K9?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/QueueRoutingConfigSettings/home"
   },
   "Queues": {
     "classic": "/p/own/OrgQueuesPage/d?retURL=%2Fsetup%2Fhome",
@@ -1214,26 +1234,6 @@
   "QuoteSettings": {
     "classic": "/quote/quoteSettings.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/QuoteSettings/home"
-  },
-  "RecAlrtDataSrcExpSetDef": {
-    "classic": "/0yn?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/RecAlrtDataSrcExpSetDef/home"
-  },
-  "RecordAlertCategory": {
-    "classic": "/0qX?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/RecordAlertCategory/home"
-  },
-  "RecordAlertDataSource": {
-    "classic": "/0rN?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/RecordAlertDataSource/home"
-  },
-  "RecordAlertOrgSettings": {
-    "classic": "CMP?cmp=runtime_industries_fsc%3ArecordAlertSettings&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/RecordAlertOrgSettings/home"
-  },
-  "RecordAlertTemplate": {
-    "classic": "/2qZ?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/RecordAlertTemplate/home"
   },
   "RegeneratePreviews": {
     "classic": "/setup/content/RegeneratePreviews.apexp?retURL=%2Fsetup%2Fhome",
@@ -1267,6 +1267,10 @@
     "classic": "CMP?cmp=clients%3AeverywhereSettingsPageContainer&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/SalesCloudEverywhereSettings/home"
   },
+  "SalesEngagement": {
+    "classic": "CMP?cmp=runtime_sales_hvs%3AhighVelocitySalesSetup&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/SalesEngagement/home"
+  },
   "Salesforce1Branding": {
     "classic": "/branding/setup/s1Branding.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/Salesforce1Branding/home"
@@ -1299,6 +1303,10 @@
     "classic": "CMP?cmp=setup_platform_optimizer%3AoptimizerSetupPageLEX&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/SalesforceOptimizer/home"
   },
+  "SalesforceSchedulerTroubleshooting": {
+    "classic": "CMP?cmp=runtime_appointmentbooking%3AssTroubleshootingUI&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/SalesforceSchedulerTroubleshooting/home"
+  },
   "ScheduledJobs": {
     "classic": "/08e?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ScheduledJobs/home"
@@ -1314,6 +1322,10 @@
   "SearchConfiguration": {
     "classic": "CMP?cmp=search_setup%3AsearchConfigurationsList&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/SearchConfiguration/home"
+  },
+  "SearchPromotionRulesManagementPage": {
+    "classic": "/0MD?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/SearchPromotionRulesManagementPage/home"
   },
   "SecurityComplianceBcc": {
     "classic": "/setup/org/compliancebcc.jsp?setupid=SecurityComplianceBcc&retURL=%2Fsetup%2Fhome",
@@ -1332,7 +1344,7 @@
     "lightning": "/lightning/setup/SecurityExpirePasswords/home"
   },
   "SecurityPolicies": {
-    "classic": "/secur/orgloginsettingedit.jsp?id=00D1t000000xE35&retURL=%2Fsetup%2Fhome",
+    "classic": "/secur/orgloginsettingedit.jsp?id=00DdM00000EabnN&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/SecurityPolicies/home"
   },
   "SecurityRedirectWhitelistUrl": {
@@ -1344,7 +1356,7 @@
     "lightning": "/lightning/setup/SecurityRemoteProxy/home"
   },
   "SecuritySession": {
-    "classic": "/_ui/system/security/SessionSettings?id=00D1t000000xE35&retURL=%2Fsetup%2Fhome",
+    "classic": "/_ui/system/security/SessionSettings?id=00DdM00000EabnN&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/SecuritySession/home"
   },
   "SecuritySharing": {
@@ -1355,29 +1367,21 @@
     "classic": "/07V?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/SendAction/home"
   },
-  "ServiceChannelSettings": {
-    "classic": "/0N9?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/ServiceChannelSettings/home"
-  },
   "ServiceCloudEinsteinReadinessCheck": {
     "classic": "CMP?cmp=setup_sales_insights%3AreadinessCheckServiceCloudEinstein&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ServiceCloudEinsteinReadinessCheck/home"
   },
+  "ServiceCloudVoice": {
+    "classic": "CMP?cmp=setup_service_voice%3AserviceCloudVoiceSetup&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/ServiceCloudVoice/home"
+  },
+  "ServiceCloudVoicePartnerTelephony": {
+    "classic": "CMP?cmp=setup_service_voice%3AserviceCloudVoiceSetupBYOT&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/ServiceCloudVoicePartnerTelephony/home"
+  },
   "ServiceHome": {
     "classic": "CMP?cmp=setup_service_experience%3AserviceHome&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ServiceHome/home"
-  },
-  "ServicePresenceDeclineReasonSettings": {
-    "classic": "/0KR?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/ServicePresenceDeclineReasonSettings/home"
-  },
-  "ServicePresenceStatusSettings": {
-    "classic": "/0N5?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/ServicePresenceStatusSettings/home"
-  },
-  "ServicePresenceUserConfigSettings": {
-    "classic": "/0Nd?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/ServicePresenceUserConfigSettings/home"
   },
   "SessionLevelPolicyUI": {
     "classic": "/identity/authconfig/sessionLevelPolicySetup.apexp?retURL=%2Fsetup%2Fhome",
@@ -1386,10 +1390,6 @@
   "SessionManagementPage": {
     "classic": "/setup/secur/session/SessionManagementPage.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/SessionManagementPage/home"
-  },
-  "SetupNetworks": {
-    "classic": "/_ui/networks/setup/SetupNetworksPage?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/SetupNetworks/home"
   },
   "SetupOneHome": {
     "classic": "CMP?cmp=onesetup%3Ahome&retURL=%2Fsetup%2Fhome%3FsetupApp%3Deasy",
@@ -1407,41 +1407,29 @@
     "classic": "/_ui/identity/saml/SingleSignOnSettingsUi/d?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/SingleSignOn/home"
   },
-  "SlackAnalyticsApp": {
-    "classic": "CMP?cmp=wave%3AslackAnalyticsAppSetup&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/SlackAnalyticsApp/home"
+  "SkillPage": {
+    "classic": "/0C5?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/SkillPage/home"
   },
-  "SlackApexCustomApps": {
-    "classic": "CMP?cmp=setup_service%3AslackApexCustomApps&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/SlackApexCustomApps/home"
+  "SkillType": {
+    "classic": "CMP?cmp=setup_service_omnichannel%3AskillTypeList&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/SkillType/home"
   },
-  "SlackIntegrationUserSetup": {
-    "classic": "CMP?cmp=one%3AslackIntegrationUserSetupPage&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/SlackIntegrationUserSetup/home"
+  "Skills": {
+    "classic": "/0C5?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/Skills/home"
   },
-  "SlackServiceApp": {
-    "classic": "CMP?cmp=support%3AslackServiceApp&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/SlackServiceApp/home"
+  "SlaProcess": {
+    "classic": "/_ui/support/entitlement/sla/SlaProcessList?retURL=%2Faura",
+    "lightning": "/lightning/setup/SlaProcess/home"
   },
   "SlackSetupAssistant": {
     "classic": "CMP?cmp=setup_service%3AslackSetupAssistant&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/SlackSetupAssistant/home"
   },
-  "SlackSetupForSales": {
-    "classic": "CMP?cmp=setup_service%3AslackSetupForSales&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/SlackSetupForSales/home"
-  },
   "SlackWorkspaces": {
     "classic": "CMP?cmp=setup_service%3AslackWorkspaces&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/SlackWorkspaces/home"
-  },
-  "SocialCustomerManagementAccountSettings": {
-    "classic": "/socialengagement/settings.apexp?retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/SocialCustomerManagementAccountSettings/home"
-  },
-  "SocialCustomerServiceBusinessRules": {
-    "classic": "CMP?cmp=setup_service_scs%3AsocialBusinessRulesContainer&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/SocialCustomerServiceBusinessRules/home"
   },
   "SoftphoneLayouts": {
     "classic": "/04n?retURL=%2Fsetup%2Fhome",
@@ -1450,6 +1438,10 @@
   "StaticResources": {
     "classic": "/apexpages/setup/listStaticResource.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/StaticResources/home"
+  },
+  "SubMgmtGettingStarted": {
+    "classic": "CMP?cmp=runtime_revenue_admin_console%3AsubMgmtGettingStarted&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/SubMgmtGettingStarted/home"
   },
   "SurveySettings": {
     "classic": "CMP?cmp=builder_industries_survey%3AsurveySetup&retURL=%2Fsetup%2Fhome",
@@ -1463,6 +1455,10 @@
     "classic": "/apexpages/tableauEmbeddingSettings.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/TableauEmbeddingSettings/home"
   },
+  "Territory2Settings": {
+    "classic": "/ui/setup/territory2/TerritoryManagement2EnablePage?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/Territory2Settings/home"
+  },
   "TestEmailDeliverability": {
     "classic": "/email-admin/testEmailDeliverability.apexp?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/TestEmailDeliverability/home"
@@ -1470,10 +1466,6 @@
   "ThemingAndBranding": {
     "classic": "CMP?cmp=one%3AthemeManager&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/ThemingAndBranding/home"
-  },
-  "Timeline": {
-    "classic": "CMP?cmp=setup_industries_common%3AtimelineSetup&retURL=%2Fsetup%2Fhome",
-    "lightning": "/lightning/setup/Timeline/home"
   },
   "TopicAssigmentTriggers": {
     "classic": "/p/setup/layout/ApexTriggerList?type=TopicAssignment&retURL=%2Fsetup%2Fhome",
@@ -1486,6 +1478,10 @@
   "TopicTriggers": {
     "classic": "/p/setup/layout/ApexTriggerList?type=Topic&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/TopicTriggers/home"
+  },
+  "TransactionSecurityNew": {
+    "classic": "CMP?cmp=runtime_platformservices_transactionSecurity%3AhomeContainer&retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/TransactionSecurityNew/home"
   },
   "UserDebugModeSetup": {
     "classic": "/ui/aura/impl/setup/UserDebugModeSetupPage?retURL=%2Fsetup%2Fhome",
@@ -1503,16 +1499,20 @@
     "classic": "/setup/secur/VerificationHistory.apexp?setupid=VerificationHistory&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/VerificationHistory/home"
   },
+  "ViewLicensesAndLimits": {
+    "classic": "/DataDotComLicensesAndLimits?retURL=%2Fsetup%2Fhome",
+    "lightning": "/lightning/setup/ViewLicensesAndLimits/home"
+  },
   "WebServices": {
     "classic": "/ui/setup/sforce/WebServicesSetupPage?retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/WebServices/home"
   },
   "WorkflowEmails": {
-    "classic": "/01W?retURL=%2Fsetup%2Fhome",
+    "classic": "/_ui/core/workflow/WorkflowSplashUi?EntityId=ActionEmail&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/WorkflowEmails/home"
   },
   "WorkflowFieldUpdates": {
-    "classic": "/04Y?retURL=%2Fsetup%2Fhome",
+    "classic": "/_ui/core/workflow/WorkflowSplashUi?EntityId=ActionFieldUpdate&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/WorkflowFieldUpdates/home"
   },
   "WorkflowOmStatus": {
@@ -1520,11 +1520,11 @@
     "lightning": "/lightning/setup/WorkflowOmStatus/home"
   },
   "WorkflowOutboundMessaging": {
-    "classic": "/04k?retURL=%2Fsetup%2Fhome",
+    "classic": "/_ui/core/workflow/WorkflowSplashUi?EntityId=ActionOutboundMessage&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/WorkflowOutboundMessaging/home"
   },
   "WorkflowRules": {
-    "classic": "/01Q?retURL=%2Fsetup%2Fhome",
+    "classic": "/_ui/core/workflow/WorkflowSplashUi?EntityId=WorkflowRule&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/WorkflowRules/home"
   },
   "WorkflowSettings": {
@@ -1532,7 +1532,7 @@
     "lightning": "/lightning/setup/WorkflowSettings/home"
   },
   "WorkflowTasks": {
-    "classic": "/01V?retURL=%2Fsetup%2Fhome",
+    "classic": "/_ui/core/workflow/WorkflowSplashUi?EntityId=ActionTask&retURL=%2Fsetup%2Fhome",
     "lightning": "/lightning/setup/WorkflowTasks/home"
   },
   "XCleanVitalsUi": {
