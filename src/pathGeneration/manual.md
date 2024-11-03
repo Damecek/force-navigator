@@ -39,10 +39,11 @@ This guide will help you capture the network request containing Salesforce setup
 
 - Open your browser's Developer Tools (e.g., `Ctrl+Shift+I` on Chrome).
 - Navigate to the **Network** tab.
-- In the filter bar, enter the following term exactly:
+- In the filter bar, filter for following url params:
 
   ```
-  getSetupTreeNodes
+  getSetupTreeNodes - returns classic setup pages
+  getMenuNodes - returns lightning setup pages
   ```
 
 ### 2.3 Refresh the Page and Locate the Request
