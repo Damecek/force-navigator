@@ -1,5 +1,5 @@
-import { forceNavigator, _d } from "./shared"
-import { t } from "lisan"
+import { _d, forceNavigator } from './shared';
+import { t } from 'lisan';
 
 const metaData = {}
 const showElement = (element)=>{
@@ -62,6 +62,51 @@ const goToUrl = (targetUrl, newTab, settings = {})=>{
 			chrome.tabs.update(tabs[0].id, { "url": newUrl })
 	})
 }
+
+function handleRequest(details) {
+    if (details.method !== 'POST') return;
+
+    // Check if the URL contains the target patterns
+    if (details.url.includes('getMenuNodes') && details.url.includes('getSetupTreeNodes')) {
+        console.log("Captured Request:", details);
+
+        // Remove the listener to prevent recursion
+        chrome.webRequest.onBeforeRequest.removeListener(handleRequest);
+
+        // Replay the request using fetch
+        (async () => {
+            try {
+                const fetchOptions = {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        // Add any additional headers if needed (e.g., cookies)
+                    },
+                    body: details.requestBody ? JSON.stringify(details.requestBody) : null
+                };
+
+                // Replay the request with fetch
+                const response = await fetch(details.url, fetchOptions);
+
+                // Read the response body
+                const responseBody = await response.text();
+                console.log("Replayed Response Body:", responseBody);
+
+                // Process responseBody as needed
+                // e.g., store it, log it, etc.
+            } catch (error) {
+                console.error("Error replaying request:", error);
+            }
+        })();
+    }
+}
+
+// Add the listener with `handleRequest` as the callback function
+chrome.webRequest.onBeforeRequest.addListener(
+    handleRequest,
+    { urls: ['*://*.lightning.force.com/*', '*://*.salesforce-setup.com/*'], types: ['xmlhttprequest'] },
+    ['requestBody']
+);
 
 chrome.commands.onCommand.addListener((command)=>{
 	switch(command) {

@@ -62,7 +62,8 @@
 		"storage",
 		"clipboardRead",
 		"cookies",
-		"scripting"
+		"scripting",
+        "webRequest"
 	],
 	"host_permissions": [
 		"https://*.force.com/*",
