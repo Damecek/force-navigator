@@ -1,5 +1,5 @@
 import { api, LightningElement, track } from 'lwc';
-import uFuzzy from '@leeoniya/ufuzzy';
+import MiniSearch from 'minisearch';
 
 export default class CommandPallet extends LightningElement {
   static renderMode = 'light';
@@ -8,8 +8,11 @@ export default class CommandPallet extends LightningElement {
   /**
    * Fuzzy search engine instance
    */
-  /* eslint-disable new-cap */
-  uf = new uFuzzy();
+  /**
+   * Fuzzy search engine instance
+   * @type {MiniSearch}
+   */
+  miniSearch; // Will be initialized in the commands setter
   @track filteredCommands = [];
   /**
    * Index of the currently highlighted command in filteredCommands
@@ -27,6 +30,16 @@ export default class CommandPallet extends LightningElement {
 
   set commands(value) {
     this._commands = Array.isArray(value) ? value : [];
+
+    // Initialize MiniSearch and add documents
+    // Fields to index for full-text search: 'label' and 'description'
+    // Fields to return with search results: all relevant fields to reconstruct the original command
+    this.miniSearch = new MiniSearch({
+      fields: ['label'],
+      storeFields: ['id'],
+    });
+    this.miniSearch.addAll(this._commands);
+
     this.filteredCommands = [...this._commands];
     this.selectedIndex = 0;
   }
@@ -58,40 +71,29 @@ export default class CommandPallet extends LightningElement {
    */
   handleInput(event) {
     const searchTerm = event.target.value;
-    let currentHaystackSource;
 
     if (searchTerm) {
-      if (
-        searchTerm.startsWith(this._lastSearchTerm) &&
-        this._lastSearchTerm !== ''
-      ) {
-        currentHaystackSource = this.filteredCommands;
-      } else {
-        currentHaystackSource = this.commands;
-      }
+      // Perform search using MiniSearch
+      const results = this.miniSearch.search(searchTerm, {
+        prefix: true, // Enable prefix matching
+        fuzzy: false, // Enable fuzzy matching with a tolerance (adjust as needed)
+        tokenize: (text) => text.split(/( > )| /g),
+      });
 
-      const currentSearchHaystack = currentHaystackSource.map((c) => c.label);
-
-      const [idxs, info, order] = this.uf.search(
-        currentSearchHaystack,
-        searchTerm
+      // Map MiniSearch results back to the original command objects
+      // Use the temporary __minisearch_id to find the original command from our _commands array.
+      // Map MiniSearch results back to the original command objects
+      // Use the temporary __miniSearchId to find the original command from our _commands array.
+      const mappedResults = results.map((result) =>
+        this._commands.find((cmd) => cmd.id === result.id)
       );
-
-      let newFilteredCommands = [];
-      if (order && info && Array.isArray(info.idx)) {
-        newFilteredCommands = order.map(
-          (pos) => currentHaystackSource[info.idx[pos]]
-        );
-      } else if (Array.isArray(idxs)) {
-        newFilteredCommands = idxs.map((i) => currentHaystackSource[i]);
-      }
-
-      this.filteredCommands = newFilteredCommands;
+      this.filteredCommands = mappedResults.filter(Boolean); // Ensure no undefined results if a match isn\'t found
     } else {
+      // If search term is empty, display all commands
       this.filteredCommands = [...this.commands];
     }
     this.selectedIndex = 0;
-    this._lastSearchTerm = searchTerm;
+    this._lastSearchTerm = searchTerm; // Retain for potential future use or context
   }
 
   /**

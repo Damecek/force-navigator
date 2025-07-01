@@ -45,6 +45,7 @@
     "@codemirror/view": "^6.38.0",
     "@leeoniya/ufuzzy": "^1.0.18",
     "@webcomponents/custom-elements": "^1.6.0",
-    "codemirror": "^6.0.2"
+    "codemirror": "^6.0.2",
+    "minisearch": "^7.1.2"
   }
 }
